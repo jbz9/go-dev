@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"go-dev/common"
+	"go-dev/common/yaml"
 )
 
 func main() {
-	common.LoadYaml()
+	yaml.LoadYaml()
 	fmt.Println("hello world")
 }
